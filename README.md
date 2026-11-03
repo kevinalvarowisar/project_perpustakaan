@@ -242,7 +242,7 @@ Beberapa mekanisme keamanan yang diterapkan:
 
 Video demonstrasi aplikasi dapat dilihat melalui tautan berikut:
 
-**YouTube:** -
+**YouTube:** https://youtu.be/KM7WQz0UTuM
 
 Video demonstrasi mencakup:
 - Proses login dan logout.
@@ -259,7 +259,7 @@ Video demonstrasi mencakup:
 
 Source code dan database project tersedia melalui repository GitHub berikut:
 
-**GitHub:** -
+**GitHub:** https://github.com/kevinalvarowisar/project_perpustakaan
 
 ---
 
