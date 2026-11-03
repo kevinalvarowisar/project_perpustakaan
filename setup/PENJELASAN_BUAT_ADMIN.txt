@@ -1,0 +1,39 @@
+DOKUMENTASI PEMBUATAN AKUN ADMINISTRATOR
+SISTEM INFORMASI PERPUSTAKAAN DIGITAL MINI
+
+1. TUJUAN
+
+File buat_admin.php digunakan untuk membuat akun administrator pertama pada aplikasi Sistem Informasi Perpustakaan Digital Mini.
+
+Akun administrator digunakan untuk masuk ke dalam sistem dan mengelola data buku, seperti menambah, mengedit, melihat, dan menghapus data buku.
+
+2. CARA KERJA
+
+Proses pembuatan akun administrator dilakukan melalui beberapa tahap:
+
+1. Menentukan username dan password awal administrator.
+2. Menghubungkan script PHP dengan database MySQL.
+3. Menggunakan fungsi password_hash() untuk mengenkripsi password menjadi password hash sebelum disimpan ke database.
+4. Menyimpan username dan password hash ke tabel users.
+5. Setelah proses berhasil, akun administrator dapat digunakan untuk login ke aplikasi.
+
+3. AKUN ADMINISTRATOR AWAL
+
+Username: admin
+Password awal: admin123
+
+Catatan: Akun tersebut digunakan untuk pengujian dan demonstrasi aplikasi.
+
+4. KEAMANAN
+
+Password tidak disimpan dalam bentuk teks biasa (plain text), melainkan menggunakan password_hash() dari PHP.
+
+Script buat_admin.php hanya digunakan untuk proses inisialisasi akun administrator pertama.
+
+Setelah akun berhasil dibuat, script harus dinonaktifkan atau dihapus dari direktori yang dapat diakses melalui browser untuk mencegah penyalahgunaan.
+
+5. KESIMPULAN
+
+File buat_admin.php merupakan script pendukung yang digunakan untuk membuat akun administrator awal. Proses ini memungkinkan aplikasi memiliki akun yang dapat digunakan untuk mengakses fitur pengelolaan perpustakaan secara aman melalui sistem login berbasis PHP Session.
+
+Dokumentasi ini disertakan sebagai penjelasan proses inisialisasi akun administrator dalam pengembangan aplikasi.
